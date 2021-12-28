@@ -12,6 +12,10 @@
 - Compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk
 - Evaluate the performance of these models and make a written recommendation on whether they should be used to predict credit risk.
 
+### Resources
+Data Source: LoanStats_2019Q1.csv
+Software: Python 3.7.11, Conda 4.11, Jupyter Notebook 6.4.6
+
 ### Results: 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
