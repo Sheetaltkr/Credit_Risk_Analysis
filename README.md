@@ -17,6 +17,21 @@ Data Source: LoanStats_2019Q1.csv
 Software: Python 3.7.11, Conda 4.11, Jupyter Notebook 6.4.6
 
 ### Results: 
+
+#### Naive Random Oversampling
+![Naive Random Oversampling]
+![SMOTE Oversampling]
+![ClusterCentroids Undersampling]
+![Combination (Over and Under) Sampling]
+![Balanced Random Forest Classifier]
+![Easy Ensemble AdaBoost Classifier]
+
+#### SMOTE Oversampling
+#### ClusterCentroids Undersampling
+#### Combination (Over and Under) Sampling 
+#### Balanced Random Forest Classifier
+#### Easy Ensemble AdaBoost Classifier
+
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
 ### Summary: 
