@@ -19,18 +19,27 @@ Software: Python 3.7.11, Conda 4.11, Jupyter Notebook 6.4.6
 ### Results: 
 
 #### Naive Random Oversampling
-![Naive Random Oversampling]
-![SMOTE Oversampling]
-![ClusterCentroids Undersampling]
-![Combination (Over and Under) Sampling]
-![Balanced Random Forest Classifier]
-![Easy Ensemble AdaBoost Classifier]
-
+![Naive Random Oversampling](https://github.com/Sheetaltkr/Credit_Risk_Analysis/blob/main/Resources/naive.png)
 #### SMOTE Oversampling
+
+![SMOTE Oversampling](https://github.com/Sheetaltkr/Credit_Risk_Analysis/blob/main/Resources/smote.png)
+
 #### ClusterCentroids Undersampling
-#### Combination (Over and Under) Sampling 
+
+![ClusterCentroids Undersampling](https://github.com/Sheetaltkr/Credit_Risk_Analysis/blob/main/Resources/ClusterCentroids.png)
+
+#### Combination (Over and Under) Sampling
+
+![Combination (Over and Under) Sampling](https://github.com/Sheetaltkr/Credit_Risk_Analysis/blob/main/Resources/smoteenn.png)
+
 #### Balanced Random Forest Classifier
+
+![Balanced Random Forest Classifier](https://github.com/Sheetaltkr/Credit_Risk_Analysis/blob/main/Resources/brfc.png)
+
 #### Easy Ensemble AdaBoost Classifier
+
+![Easy Ensemble AdaBoost Classifier](https://github.com/Sheetaltkr/Credit_Risk_Analysis/blob/main/Resources/eec.png)
+
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
