@@ -19,7 +19,7 @@ Software: Python 3.7.11, Conda 4.11, Jupyter Notebook 6.4.6
 ## Results: 
 
 ### Naive Random Oversampling
-- **Balanced accuracy score:**
+- **Balanced accuracy score:** 66%
 - **Precision score:**
 - **Recall score:**
 
@@ -27,7 +27,7 @@ Software: Python 3.7.11, Conda 4.11, Jupyter Notebook 6.4.6
 ![Naive Random Oversampling](https://github.com/Sheetaltkr/Credit_Risk_Analysis/blob/main/Resources/naive.png)
 
 ### SMOTE Oversampling
-- **Balanced accuracy score:**
+- **Balanced accuracy score:** 63%
 - **Precision score:**
 - **Recall score:**
 
@@ -35,7 +35,7 @@ Software: Python 3.7.11, Conda 4.11, Jupyter Notebook 6.4.6
 ![SMOTE Oversampling](https://github.com/Sheetaltkr/Credit_Risk_Analysis/blob/main/Resources/smote.png)
 
 ### ClusterCentroids Undersampling
-- **Balanced accuracy score:**
+- **Balanced accuracy score:** 51%
 - **Precision score:**
 - **Recall score:**
 
@@ -43,7 +43,7 @@ Software: Python 3.7.11, Conda 4.11, Jupyter Notebook 6.4.6
 ![ClusterCentroids Undersampling](https://github.com/Sheetaltkr/Credit_Risk_Analysis/blob/main/Resources/ClusterCentroids.png)
 
 ### Combination (Over and Under) Sampling
-- **Balanced accuracy score:**
+- **Balanced accuracy score:** 64%
 - **Precision score:**
 - **Recall score:**
 
@@ -51,7 +51,7 @@ Software: Python 3.7.11, Conda 4.11, Jupyter Notebook 6.4.6
 ![Combination (Over and Under) Sampling](https://github.com/Sheetaltkr/Credit_Risk_Analysis/blob/main/Resources/smoteenn.png)
 
 ### Balanced Random Forest Classifier
-- **Balanced accuracy score:**
+- **Balanced accuracy score:** 67%
 - **Precision score:**
 - **Recall score:**
 
@@ -60,7 +60,7 @@ Software: Python 3.7.11, Conda 4.11, Jupyter Notebook 6.4.6
 
 ### Easy Ensemble AdaBoost Classifier
 
-- **Balanced accuracy score:**
+- **Balanced accuracy score:** 92.5%
 - **Precision score:**
 - **Recall score:**
 
