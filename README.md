@@ -18,55 +18,57 @@ Software: Python 3.7.11, Conda 4.11, Jupyter Notebook 6.4.6
 
 ## Results: 
 
-### Naive Random Oversampling
+### 1) Naive Random Oversampling
 - **Balanced accuracy score:** 66%
-- **Precision score:**
-- **Recall score:**
+- **High Risk Precision score:** 0.01
+- **High Risk Recall score:** 0.66
 
 
 ![Naive Random Oversampling](https://github.com/Sheetaltkr/Credit_Risk_Analysis/blob/main/Resources/naive.png)
 
-### SMOTE Oversampling
+### 2) SMOTE Oversampling
 - **Balanced accuracy score:** 63%
-- **Precision score:**
-- **Recall score:**
+- **High Risk Precision score:** 0.01
+- **High Risk Recall score:** 0.62
 
 
 ![SMOTE Oversampling](https://github.com/Sheetaltkr/Credit_Risk_Analysis/blob/main/Resources/smote.png)
 
-### ClusterCentroids Undersampling
+### 3) ClusterCentroids Undersampling
 - **Balanced accuracy score:** 51%
-- **Precision score:**
-- **Recall score:**
+- **High Risk Precision score:** 0.01
+- **High Risk Recall score:** 0.59
+- **Low Risk Precision score:** 1.00
+- **Low Risk Recall score:** 0.64
 
 
 ![ClusterCentroids Undersampling](https://github.com/Sheetaltkr/Credit_Risk_Analysis/blob/main/Resources/ClusterCentroids.png)
 
-### Combination (Over and Under) Sampling
+### 4) Combination (Over and Under) Sampling
 - **Balanced accuracy score:** 64%
-- **Precision score:**
-- **Recall score:**
+- **High Risk Precision score:** 0.01
+- **High Risk Recall score:** 0.70
 
 
 ![Combination (Over and Under) Sampling](https://github.com/Sheetaltkr/Credit_Risk_Analysis/blob/main/Resources/smoteenn.png)
 
-### Balanced Random Forest Classifier
+### 5) Balanced Random Forest Classifier
 - **Balanced accuracy score:** 67%
-- **Precision score:**
-- **Recall score:**
+- **High Risk Precision score:** 0.73
+- **High Risk Recall score:** 0.34
 
 
 ![Balanced Random Forest Classifier](https://github.com/Sheetaltkr/Credit_Risk_Analysis/blob/main/Resources/brfc.png)
 
-### Easy Ensemble AdaBoost Classifier
+### 6) Easy Ensemble AdaBoost Classifier
 
 - **Balanced accuracy score:** 92.5%
-- **Precision score:**
-- **Recall score:**
+- **High Risk Precision score:** 0.07
+- **High Risk Recall score:** 0.91
 
 ![Easy Ensemble AdaBoost Classifier](https://github.com/Sheetaltkr/Credit_Risk_Analysis/blob/main/Resources/eec.png)
 
 
 ### Summary: 
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+
