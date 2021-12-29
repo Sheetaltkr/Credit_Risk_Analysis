@@ -79,7 +79,8 @@ This model has highest accuracy score among all models.However Low Risk class pr
 
 ### Summary: 
 
-The credit risk assessment dataset is a highly imbalanced dataset, the balanced accuracy score for such dataset might be misleading and hence the f1 score should be considered over accuracy score for evaluation of the prediction models. 
-Since the f1 score for High Risk Class for all the models is low even though the accuracy score is high for Easy Ensemble AdaBoost Classifier model, we cannot come to an conclusion if the tried algorithms are the best to make Credit Risk predictions.
+- The credit risk assessment dataset is a highly imbalanced dataset, the balanced accuracy score for such dataset might be misleading and hence the f1 score should be considered over accuracy score for evaluation of the prediction models.
+- Also as we want all high Risk predictions to be predicted correctly and none of the high risk prediction should be flagged as Low Risk, the sensitivity score outweighs the precision score.
+- Since the f1 score for High Risk Class for all the models is low even though the accuracy score is high for Easy Ensemble AdaBoost Classifier model, we could not come to conclusion if the tried algorithms can be used to make Credit Risk predictions.
 
 
